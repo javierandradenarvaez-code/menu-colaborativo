@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #f3eee5;
+  color: #2d2a25;
+  font-family: "Montserrat", sans-serif;
+  padding: 40px 20px;
+}
+
+.menu {
+  max-width: 850px;
+  margin: auto;
+  background: #fffdf8;
+  padding: 70px 80px;
+  border: 1px solid #d8cdbd;
+  box-shadow: 0 15px 40px rgba(50, 40, 25, 0.08);
+}
+
+.menu-header {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.restaurant {
+  color: #9b6b3d;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1;
+  color: #29251f;
+}
+
+.subtitle {
+  margin-top: 15px;
+  color: #81786c;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.item {
+  position: relative;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ded5c8;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.item h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: #342f28;
+}
+
+.item-title span {
+  color: #9b6b3d;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 23px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.item p {
+  max-width: 650px;
+  margin-top: 7px;
+  color: #756e64;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  margin-top: 45px;
+  padding-top: 25px;
+  border-top: 1px solid #ded5c8;
+}
+
+footer p {
+  color: #9a9185;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  .menu {
+    padding: 45px 25px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .item-title {
+    gap: 10px;
+  }
+
+  .item h2 {
+    font-size: 23px;
+  }
+
+  .item-title span {
+    font-size: 20px;
+  }
+}
