@@ -1,12 +1,266 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Platos Fuertes</title>
+
+    <style>
+        body {
+            background-color: #f5f0e8;
+            font-family: Arial;
+            margin: 30px;
+        }
+
+        h1 {
+            color: brown;
+            text-align: center;
+        }
+
+        h2 {
+            color: brown;
+        }
+
+        h3 {
+            color: #8b4513;
+        }
+
+        nav {
+            background-color: #e0c4a8;
+            padding: 15px;
+            text-align: center;
+        }
+
+        a {
+            color: black;
+            margin: 10px;
+        }
+
+        .platillo {
+            background-color: white;
+            border: 1px solid gray;
+            padding: 15px;
+            margin: 20px;
+        }
+
+        .precio {
+            color: green;
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
 
-	<h2> 
+    <h1>Nombre del restaurante</h1>
+
+    <p align="center">
+        Bienvenidos a nuestro menú de platos fuertes.
+    </p>
+
+    <hr>
+
+    <nav>
+        <a href="#enchiladas">Enchiladas</a>
+        <a href="#mole">Mole</a>
+        <a href="#arrachera">Arrachera</a>
+        <a href="#chilaquiles">Chilaquiles</a>
+        <a href="#pescado">Pescado</a>
+    </nav>
+
+    <h2>Platos fuertes</h2>
+
+    <!-- PLATILLO 1 -->
+
+    <div class="platillo" id="enchiladas">
+
+        <h2>1. Enchiladas verdes</h2>
+
+        <p>
+            Tortillas rellenas de pollo con salsa verde,
+            crema y queso.
+        </p>
+
+        <p class="precio">Precio: $145.00</p>
+
+        <h3>Ingredientes</h3>
+
+        <ul>
+            <li>6 tortillas de maíz</li>
+            <li>250 g de pollo deshebrado</li>
+            <li>5 tomates verdes</li>
+            <li>2 chiles serranos</li>
+            <li>1 diente de ajo</li>
+            <li>Crema y queso fresco</li>
+        </ul>
+
+        <h3>Preparación</h3>
+
+        <ol>
+            <li>Hervir los tomates y los chiles.</li>
+            <li>Licuar con el ajo y un poco de agua.</li>
+            <li>Calentar la salsa en una sartén.</li>
+            <li>Rellenar las tortillas con pollo.</li>
+            <li>Agregar salsa, crema y queso.</li>
+        </ol>
+
+    </div>
+
+    <!-- PLATILLO 2 -->
+
+    <div class="platillo" id="mole">
+
+        <h2>2. Pollo con mole poblano</h2>
+
+        <p>
+            Pollo bañado en mole poblano,
+            acompañado de arroz rojo.
+        </p>
+
+        <p class="precio">Precio: $185.00</p>
+
+        <h3>Ingredientes</h3>
+
+        <ul>
+            <li>2 piezas de pollo</li>
+            <li>200 g de pasta de mole</li>
+            <li>2 tazas de caldo de pollo</li>
+            <li>1 cucharada de aceite</li>
+            <li>Ajonjolí</li>
+            <li>Arroz rojo</li>
+        </ul>
+
+        <h3>Preparación</h3>
+
+        <ol>
+            <li>Cocer el pollo en agua con sal.</li>
+            <li>Calentar el aceite en una cacerola.</li>
+            <li>Agregar el mole y el caldo de pollo.</li>
+            <li>Mezclar hasta obtener una salsa espesa.</li>
+            <li>Agregar el pollo y cocinar 10 minutos.</li>
+            <li>Servir con arroz y ajonjolí.</li>
+        </ol>
+
+    </div>
+
+    <!-- PLATILLO 3 -->
+
+    <div class="platillo" id="arrachera">
+
+        <h2>3. Arrachera a la parrilla</h2>
+
+        <p>
+            Carne de res a la parrilla acompañada
+            de papas y verduras.
+        </p>
+
+        <p class="precio">Precio: $245.00</p>
+
+        <h3>Ingredientes</h3>
+
+        <ul>
+            <li>250 g de arrachera</li>
+            <li>2 limones</li>
+            <li>1 diente de ajo</li>
+            <li>Aceite de oliva</li>
+            <li>2 papas</li>
+            <li>Sal y pimienta</li>
+        </ul>
+
+        <h3>Preparación</h3>
+
+        <ol>
+            <li>Mezclar limón, ajo, aceite y sal.</li>
+            <li>Marinar la carne durante 30 minutos.</li>
+            <li>Cortar las papas y las verduras.</li>
+            <li>Cocinar las papas.</li>
+            <li>Asar la carne hasta que esté cocida.</li>
+            <li>Servir con papas y verduras.</li>
+        </ol>
+
+    </div>
+
+    <!-- PLATILLO 4 -->
+
+    <div class="platillo" id="chilaquiles">
+
+        <h2>4. Chilaquiles rojos con pollo</h2>
+
+        <p>
+            Totopos con salsa roja, pollo,
+            crema y queso fresco.
+        </p>
+
+        <p class="precio">Precio: $135.00</p>
+
+        <h3>Ingredientes</h3>
+
+        <ul>
+            <li>150 g de totopos</li>
+            <li>200 g de pollo deshebrado</li>
+            <li>4 jitomates</li>
+            <li>2 chiles guajillos</li>
+            <li>1 diente de ajo</li>
+            <li>Crema y queso fresco</li>
+        </ul>
+
+        <h3>Preparación</h3>
+
+        <ol>
+            <li>Hervir los jitomates y los chiles.</li>
+            <li>Licuar con ajo y agua.</li>
+            <li>Calentar la salsa en una sartén.</li>
+            <li>Agregar los totopos.</li>
+            <li>Colocar el pollo encima.</li>
+            <li>Agregar crema y queso.</li>
+        </ol>
+
+    </div>
+
+    <!-- PLATILLO 5 -->
+
+    <div class="platillo" id="pescado">
+
+        <h2>5. Filete de pescado al limón</h2>
+
+        <p>
+            Pescado preparado con limón,
+            acompañado de arroz y ensalada.
+        </p>
+
+        <p class="precio">Precio: $195.00</p>
+
+        <h3>Ingredientes</h3>
+
+        <ul>
+            <li>2 filetes de pescado</li>
+            <li>2 limones</li>
+            <li>1 diente de ajo</li>
+            <li>1 cucharada de mantequilla</li>
+            <li>1 taza de arroz blanco</li>
+            <li>Lechuga y jitomate</li>
+            <li>Sal y pimienta</li>
+        </ul>
+
+        <h3>Preparación</h3>
+
+        <ol>
+            <li>Agregar limón, sal y pimienta al pescado.</li>
+            <li>Calentar mantequilla en una sartén.</li>
+            <li>Agregar el ajo picado.</li>
+            <li>Cocinar el pescado por ambos lados hasta que esté bien cocido.</li>
+            <li>Preparar una ensalada.</li>
+            <li>Servir con arroz y ensalada.</li>
+        </ol>
+
+    </div>
+
+    <hr>
+
 
 </body>
+</html>
