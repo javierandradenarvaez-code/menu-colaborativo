@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3eee5;
+    color: #2d2a25;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 35px 20px;
+}
+
+.menu {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fffdf8;
+    padding: 55px 65px;
+    border: 1px solid #d8cdbd;
+    box-shadow: 0 10px 30px rgba(50, 40, 25, 0.10);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.restaurant {
+    color: #9b6b3d;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #29251f;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #81786c;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+nav {
+    text-align: center;
+    border-top: 1px solid #ded5c8;
+    border-bottom: 1px solid #ded5c8;
+    padding: 16px;
+    margin-bottom: 35px;
+}
+
+nav a {
+    color: #7a5433;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    margin: 0 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b17b49;
+}
+
+.presentacion {
+    text-align: center;
+    margin: 30px auto 45px;
+    max-width: 650px;
+    line-height: 1.7;
+    color: #6e665d;
+}
+
+.categoria, .platillo {
+    border-bottom: 1px solid #ded5c8;
+    padding: 25px 5px;
+}
+
+.categoria:last-child, .platillo:last-child {
+    border-bottom: none;
+}
+
+.categoria h2, .platillo h2 {
+    color: #342f28;
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+
+.categoria p, .platillo p {
+    color: #756e64;
+    line-height: 1.7;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 13px;
+    padding: 9px 16px;
+    border: 1px solid #9b6b3d;
+    color: #7a5433;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.boton:hover {
+    background-color: #9b6b3d;
+    color: white;
+}
+
+.precio {
+    color: #9b6b3d !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+h3 {
+    color: #7a5433;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+ul, ol {
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    color: #625b52;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #ded5c8;
+    margin-top: 40px;
+    padding-top: 25px;
+    color: #9a9185;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+@media (max-width: 650px) {
+    body { padding: 15px; }
+    .menu { padding: 35px 22px; }
+    h1 { font-size: 38px; }
+    nav a { display: block; margin: 8px; }
+}
